@@ -1,5 +1,6 @@
 import java.util.Arrays;
-import java.util.Comparator;public class Main {
+
+public class Main {
     public static void main(String[] args) {
         int[] myArr=new int[]{2,15,6,3,34,733,34,2,6,43,7,36,6,8,235,432,957};
         Arrays.sort(myArr);
@@ -14,7 +15,6 @@ import java.util.Comparator;public class Main {
 
     }
     public static int binaryAlgo(int[] myArr,int left,int right,int key){
-
         if(right >= left){
             int mid = left + (right-left)/2;
 
